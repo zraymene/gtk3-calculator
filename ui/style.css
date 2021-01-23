@@ -1,0 +1,37 @@
+GtkButton {
+    background-image: none;
+}
+
+#window{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#result_entry {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#command_button{
+    background-image: none;
+    background-color: #E71D36;
+    font-weight: 800;
+    color: #FDFFFC;
+}
+
+#command_button:hover{
+    background-color: #FDFFFC;
+    color: #E71D36;
+}
+
+#operation_button{
+    background-image: none;
+    background-color: #011627;
+    font-weight: 800;
+    color: #FDFFFC;
+}
+
+#operation_button:hover {
+    background-color: #FDFFFC;
+    color: #011627;
+}

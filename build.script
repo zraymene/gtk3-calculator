@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gcc -o build/output src/main.c `pkg-config --cflags --libs gtk+-3.0` 
+cp ui/page.ui build/ui/
+cp ui/style.css build/ui/
+./build/output
